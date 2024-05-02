@@ -8,9 +8,9 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class DataObject {
-    private long time;
-    private double longitude;
-    private double latitude;
-    private double depth;
-    private double temp;
+    private Long time;
+    private Double longitude;
+    private Double latitude;
+    private Double depth;
+    private Double temp;
 }
